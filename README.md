@@ -86,12 +86,19 @@ const filterArrSet = (arr = []) => {
 
 + 视频控件
     配置：options(默认)
+
     min: 滑块控件的 min 属性值(0),
+
     max: 回滑块控件的 max 属性值(1),
+
     step: 合法数字间隔(0.1),
+
     dom: 视频控制放置的位置,
+
     src: 视频地址,
+
     imgs: 自定义视频控制区图片
+    
    
     使用：
     var videoCtrl=new VideoCtrl();
@@ -99,7 +106,7 @@ const filterArrSet = (arr = []) => {
         videoCtrl.init()
     2. 播放/暂停
         videoCtrl.play()
-   3. 播放进度控制/音量控制
+    3. 播放进度控制/音量控制
         document.querySelector('input).rangeCtrl()
 
 
