@@ -85,6 +85,7 @@ const filterArrSet = (arr = []) => {
 ```
 
 + 视频控件
+
     配置：options(默认)
 
     min: 滑块控件的 min 属性值(0),
@@ -98,7 +99,7 @@ const filterArrSet = (arr = []) => {
     src: 视频地址,
 
     imgs: 自定义视频控制区图片
-    
+
    
     使用：
     var videoCtrl=new VideoCtrl();
